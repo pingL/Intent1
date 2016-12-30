@@ -10,7 +10,7 @@ import java.io.File;
 
 public class BaseAlbumDirFactory extends AlbumStorageDirFactory {
 
-    private static final String CAMERA_DIR = "/dcim/";
+    private static final String CAMERA_DIR = "/dcimteam/";
 
     @Override
     public File getAlbumStorageDir(String albumName) {
